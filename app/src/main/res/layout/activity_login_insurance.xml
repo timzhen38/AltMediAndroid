@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Create your account -->
+    <TextView
+        android:id="@+id/createAccountText"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="42dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/create_your"
+        android:textAppearance="@style/create_your" />
+
+    <EditText
+        android:id="@+id/nameCardText"
+        android:layout_width="282dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="206dp"
+        android:layout_marginEnd="51dp"
+        android:background="@drawable/logInBox"
+        android:hint="Name"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/cardNumText"
+        android:layout_width="282dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/nameCardText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="51dp"
+        android:background="@drawable/logInBox"
+        android:hint="Card Number"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/cvvText"
+        android:layout_width="282dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/cardNumText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="51dp"
+        android:background="@drawable/logInBox"
+        android:hint="CVV"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/expDateText"
+        android:layout_width="282dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/cvvText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="51dp"
+        android:background="@drawable/logInBox"
+        android:hint="Expiration Date"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="134dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="509dp"
+        android:layout_marginEnd="125dp"
+        android:drawable="@drawable/nextbuttonshape"
+        android:backgroundTint="null"
+        android:gravity="center_horizontal|top"
+        android:text="@string/submit"
+        android:textAppearance="@style/next" />
+
+</RelativeLayout>

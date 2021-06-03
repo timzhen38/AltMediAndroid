@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#00D51B1B">
+
+    <TextView
+        android:id="@+id/createAccountText"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="42dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/create_your"
+        android:textAppearance="@style/create_your" />
+
+    <TextView
+        android:id="@+id/askInsuranceText"
+        android:layout_width="293dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="42dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/do_you_have"
+        android:textAppearance="@style/do_you_have" />
+
+    <CheckBox
+        android:id="@+id/insuranceYesCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/askInsuranceText"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="5dp"
+        android:button="@drawable/checkboxrect"
+        android:text="Yes" />
+
+    <CheckBox
+        android:id="@+id/insuranceNoCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/askInsuranceText"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/insuranceYesCheckBox"
+        android:button="@drawable/checkboxrect"
+        android:text="No" />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="134dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="509dp"
+        android:layout_marginEnd="125dp"
+        android:drawable="@drawable/nextbuttonshape"
+        android:backgroundTint="null"
+        android:gravity="center_horizontal|top"
+        android:text="@string/next"
+        android:textAppearance="@style/next" />
+
+</RelativeLayout>

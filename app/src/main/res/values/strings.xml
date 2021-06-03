@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">AltMediAndroid</string>
+    <string name="create_your"> Create your account </string>
+    <string name="do_you_have">Do you have insurance?</string>
+    <string name="do_you_have_medical">Do you have any serious medical concerns?</string>
+    <string name="next">Next</string>
+    <string name="submit">Submit</string>
+    <string name="what_are_some">What are some of your medical concerns?</string>
 </resources>

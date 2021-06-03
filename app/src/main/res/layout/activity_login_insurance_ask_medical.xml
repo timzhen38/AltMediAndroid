@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#00D51B1B">
+
+    <TextView
+        android:id="@+id/createAccountText"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="42dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/create_your"
+        android:textAppearance="@style/create_your" />
+
+    <TextView
+        android:id="@+id/askMedicalText"
+        android:layout_width="328dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="42dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/what_are_some"
+        android:textAppearance="@style/what_are_some" />
+
+    <CheckBox
+        android:id="@+id/diabetesCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/askMedicalText"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="1dp"
+        android:button="@drawable/checkboxrect"
+        android:text="Diabetes" />
+
+    <CheckBox
+        android:id="@+id/bloodPressureCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/diabetesCheckBox"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="1dp"
+        android:button="@drawable/checkboxrect"
+        android:text="Blood Pressure" />
+
+    <CheckBox
+        android:id="@+id/diabetes2CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bloodPressureCheckBox"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="1dp"
+        android:button="@drawable/checkboxrect"
+        android:text="Diabetes" />
+
+    <CheckBox
+        android:id="@+id/liverIssuesCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/diabetes2CheckBox"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="1dp"
+        android:button="@drawable/checkboxrect"
+        android:text="Liver Issues" />
+
+    <EditText
+        android:id="@+id/otherMedicalText"
+        android:layout_width="282dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/liverIssuesCheckBox"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="42dp"
+        android:background="@drawable/logInBox"
+        android:hint="Others"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="134dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="509dp"
+        android:layout_marginEnd="125dp"
+        android:drawable="@drawable/nextbuttonshape"
+        android:backgroundTint="null"
+        android:gravity="center_horizontal|top"
+        android:text="@string/submit"
+        android:textAppearance="@style/next" />
+
+</RelativeLayout>
