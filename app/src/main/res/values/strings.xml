@@ -6,4 +6,6 @@
     <string name="next">Next</string>
     <string name="submit">Submit</string>
     <string name="what_are_some">What are some of your medical concerns?</string>
+    <string name="please_verify">Please verify your email!</string>
+    <string name="done">Done</string>
 </resources>

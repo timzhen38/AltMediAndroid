@@ -49,4 +49,31 @@
             #61696C
         </item>
     </style>
+
+    <style name="welcome">
+        <item name="android:textSize">
+            30sp
+        </item>
+        <item name="android:textColor">
+            #87DD7F
+        </item>
+    </style>
+
+    <style name="please_verify">
+        <item name="android:textSize">
+            22sp
+        </item>
+        <item name="android:textColor">
+            #87DD7F
+        </item>
+    </style>
+
+    <style name="done">
+        <item name="android:textSize">
+            20sp
+        </item>
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+    </style>
 </resources>
